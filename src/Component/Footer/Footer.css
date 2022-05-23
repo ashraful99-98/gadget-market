@@ -1,0 +1,207 @@
+.footer-1st {
+    background-color: #2F3037;
+    padding: 1rem 0;
+}
+
+.footer-1st .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.footer-1st .box-container .box h5 {
+    color: #fff;
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+}
+
+.footer-1st .box-container .box small {
+    color: #b1b9b1;
+    text-transform: none;
+}
+
+.icons {
+    margin-top: 1.2rem;
+}
+
+.icons .facebook-icon {
+    margin-right: 0.3rem;
+    background-color: #3C5B9B;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+}
+
+.icons .twitter-icon {
+    margin-right: 0.3rem;
+    background-color: #40C1DF;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+}
+
+.icons .instagram-icon {
+    margin-right: 0.3rem;
+    background-color: #C619B8;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+}
+
+.icons .youtube-icon {
+    margin-right: 0.3rem;
+    background-color: #FF0E00;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+}
+
+.icons .pinterest-icon {
+    margin-right: 0.3rem;
+    background-color: #C72982;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+}
+
+.app-img {
+    margin-top: 1.2rem;
+    display: flex;
+}
+
+.phone {
+    margin: 1rem 0;
+    background-color: #1F2024;
+    padding: 1rem;
+    display: flex;
+    border: 1px solid #FCB200;
+    border-radius: 2px;
+}
+
+.text {
+    color: #FCB200;
+}
+
+
+
+
+
+.footer {
+    background: #1F2024;
+}
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box p {
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0.4rem 0;
+    display: block;
+    text-transform: capitalize;
+}
+
+.footer .box-container .box a:hover {
+    color: #FCB200;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1rem;
+
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+    color: #FCB200;
+}
+
+
+.footer .box-container .box .submit {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #222;
+    text-transform: none;
+    display: flex;
+}
+
+.footer .box-container .box img {
+    margin: 0.5rem 0;
+}
+
+.submit-mail {
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+    color: #222;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 2px solid #FCB200;
+}
+
+.submit-btn {
+    display: flex;
+    text-transform: capitalize;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #FCB200;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #FCB200;
+    color: #1F2024;
+
+}
+
+.span {
+    margin-right: 0.5rem;
+}
+
+
+.footer .btn:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+.footer .box-container .box .payment {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.credit {
+    text-align: center;
+    text-transform: capitalize;
+    background: #263C97;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1.6rem;
+}

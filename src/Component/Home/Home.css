@@ -1,0 +1,124 @@
+.home {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background-color: #283D98;
+}
+
+.slider-text {
+    top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+
+.slider-text .span small {
+    background-color: #FCBE00;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: black;
+    padding: 0.3rem 0.6rem;
+}
+
+.slider-text div {
+    margin-top: 3rem;
+}
+
+.slider-btn {
+    padding: 0.7rem 1.6rem;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+}
+
+.slider-btn:hover {
+    background-color: #FCBE00;
+    color: black;
+}
+
+/* item section  */
+.item {
+    background-color: #F2CD3A;
+    padding: 0.5rem 0;
+    padding-bottom: 0.3rem;
+}
+
+.item p {
+    margin-top: 0.7rem;
+}
+
+/* banner section */
+
+.banner-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.banner-section .banner {
+    position: relative;
+    height: 22rem;
+    overflow: hidden;
+}
+
+.banner-section .banner:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.banner-section .banner img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.banner-section .banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: left;
+    line-height: 1rem;
+}
+
+.banner-section .banner .banner-content span {
+    color: #666;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.banner-section .banner .banner-content h2 {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    color: #222;
+    text-transform: capitalize;
+}
+
+.banner-section .banner .banner-content h4 {
+    padding-bottom: 1rem;
+}
+
+.banner-section .banner .banner-content .banner-btn1,
+.banner-section .banner .banner-content .banner-btn2 {
+    padding: .6rem 1.6rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #222;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.banner-section .banner .banner-content .banner-btn1:hover,
+.banner-section .banner .banner-content .banner-btn2:hover {
+    color: #fff;
+    background-color: #FCBE00;
+}

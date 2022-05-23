@@ -1,0 +1,72 @@
+.products .box-container .box {
+
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-radius: .2rem;
+    overflow: hidden;
+}
+
+.products .box-container .box:hover .image {}
+
+.products .box-container .box:hover .image .img {}
+
+.products .box-container .box:hover .image .icons {
+    left: 1rem;
+}
+
+.products .box-container .box .image {
+    position: relative;
+}
+
+.products .box-container .box .image .icons {
+    position: absolute;
+    top: 0;
+    left: -7rem;
+}
+
+.products .box-container .box .image .icons a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    color: #fff;
+    background: #333;
+}
+
+.products .box-container .box .image .icons a:hover {
+    background: #FEB201;
+    color: #111;
+}
+
+.products .box-container .box .content {
+    padding: 2rem;
+}
+
+.products .box-container .box .content h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.products .box-container .box .content .price {
+    font-size: 2rem;
+    color: #111;
+    padding-bottom: .7rem;
+    padding-top: .5rem;
+}
+
+.products .box-container .box .content .price span {
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.products .box-container .box .content .stars i {
+    font-size: 1.7rem;
+    color: gold;
+}
